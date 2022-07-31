@@ -91,7 +91,7 @@ img{ border:menu none;}
 /*.example_sentence_list .sentence_two .left{ width:820px; font:14px/26px SimSun;}
 .example_sentence_list .sentence_two .right{ width:150px; text-align:right font:14px/26px SimSun; color:#cccccc;}*/
 .example_sentence_list .sentence_two .left_mm{ font:14px/26px SimSun;}
-.example_sentence_list .sentence_two .right_mm{ text-align:right font:14px/26px SimSun; color:#cccccc;}
+.example_sentence_list .sentence_two .right_mm{ text-align:right; font:14px/26px SimSun; color:#cccccc;}
 
 .paging{ line-height:22px; font:12px/24px SimSun; text-align:center; padding:20px 0;}
 .paging a{ padding:2px 7px; border:1px solid #848484; margin-right:7px; color:#848484;}

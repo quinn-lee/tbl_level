@@ -55,7 +55,7 @@ img{ border:menu none;}
 .f_page_nav a{ font:16px/26px '微软雅黑'; color:#008cd6; margin-right:28px; text-decoration:none; border-bottom:1px solid #008cd6;}
 .f_page_nav a:hover,.f_page_nav a.on{ color:#333333; border:medium none;}
 .f_page_search{ text-align:center;}
-.f_input_one{ width:480px; height:16px; border:1px solid #80c6eb; font:14px/16px '微软雅黑'; color#000000; padding:13px 0 13px 10px; outline:none;}
+.f_input_one{ width:480px; height:16px; border:1px solid #80c6eb; font:14px/16px '微软雅黑'; color: #000000; padding:13px 0 13px 10px; outline:none;}
 .f_btn_one{ width:108px; height:44px; background-color:#80c6eb; cursor:pointer; border:medium none; font:18px/44px '微软雅黑'; color:#ffffff;}
 .f_page_btm { font:14px/30px '宋体'; color:#999999; text-align:center; margin:20px 0;}
 .f_min_h { min-height:700px; border:medium none;}
