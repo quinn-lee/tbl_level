@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="pragram" content="no-cache">
+        <title>自身免疫性肝病肝纤维化分级系统</title>
+        <link rel="stylesheet" type="text/css" href="/assets/scale_index.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css.css">
+        <link rel="stylesheet" type="text/css" href="/assets/base_v2.css">
+        <link rel="stylesheet" href="/assets/bootstrap.min.css" />
+        <link type="text/css" rel="stylesheet" href="/assets/iconfont.css" />
+        <link rel="stylesheet" type="text/css" href="/assets/comment.css">
+        <link rel="stylesheet" type="text/css" href="/assets/show.css">
+        <script type="text/javascript" src="/assets/jquery-1.12.4.min.js"></script>
+
+</head>
+    <body>
+        <!-- content -->
+        <div class="f_page_cont_l f_wid729 content"><div class="f_page_cont_nav" id="id_f_page_cont_nav" style="min-height: 790px;">
+	        <div class="f_detail_box">
+	        <div id="post-38" class="post">                         
+	<div id="title">
+	  <h2>自身免疫性肝病肝纤维化分级系统</h2> 
+	</div>
+	<%=form_tag "/calc", remote:true ,method: "post", id: "ftheform", name: "theform" do%>
+		<table cellspacing="0" cellpadding="0" border="0">
+		<tbody>
+		<tr class="req">
+		<td>脾肿大</td>
+		<td><select name="sp" id="sp"> <option value="0">无</option> <option value="20">有</option> </select></td>
+		</tr>
+		<tr class="req">
+		<td>补体C4（0~0.65）</td>
+		<td><input type="text" name="c4" id="c4"></td>
+		</tr>
+		<tr class="req">
+		<td>高尔基体膜蛋白GP-73（0~350）</td>
+		<td><input type="text" name="gp73" id="gp73"></td>
+		</tr>
+		<tr class="req">
+		<td>肝硬度swe（0~35）</td>
+		<td><input type="text" name="swe" id="swe"></td>
+		</tr>
+		<tr>
+		<td class=""><div class="ms-comment-area"><div class="comment-wrap"><div class="comment-action"><button class="comment-submit">评级</button></div></div></div></td>
+		</tr>
+		<tr class="answer">
+		<td>肝硬化发生率:</td>
+		<td><input type="text" readonly="readonly" name="result" id="result"> %</td>
+		</tr>
+		<tr class="answer">
+		<td>评级</td>
+		<td><input type="text" readonly="readonly" name="result2" id="result2">
+		<div id="resultmsg"></div></td>
+		</tr>
+		</tbody></table>
+	<% end %>
+</div>   
+	        </div>
+        </div>
+    </div>
+        <br>
+
+        <div>
+    <div style="clear:both; font-size:14px; text-align:center; padding:10px 0;">
+        aild © 2022
+    </div>
+</div>
+
+    </body>
+
+</html>

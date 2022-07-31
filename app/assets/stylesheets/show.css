@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+button{
+    border: none;
+}
+.show-bread{
+    color: #8B949D;
+    font-size: 16px;
+    margin-top: 50px;
+}
+.show-bread h3{
+    color: #000;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+.show-bread a{
+    color: #8B949D;
+    margin-top: 5px;
+}
+.show-bread a:hover{
+    color: rgba(47, 146, 238, 1) !important;
+}
+.composs-comments .comment-list .image-avatar{
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.composs-comments .ms-comment-area .comment-avatar img{
+    max-width:100%;
+}
+.composs-comments .comment-list .image-avatar img{
+    max-width: 100%;
+    height: auto;
+}
+.composs-comments .comment-list .comment-text {
+    display: block;
+    margin-left: 70px;
+}
+.post table tr td input[type="button"]{
+    height: 40px;
+}
+.post table tr td input[type="text"]{
+    height: auto!important;
+}
+.composs-comments .comment-list .comment-text p{
+    margin-bottom: 10px;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{
+    outline: none!important;
+    border: none!important;
+    background-color: #2F92EE;
+}
+@media screen and (max-width: 768px) {
+    .show-bread{
+        padding: 0px 10px;
+    }
+    .show-comment{
+        padding: 0px 10px;
+    }
+}

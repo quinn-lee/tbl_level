@@ -1,0 +1,6 @@
+<%if @result[:status] == "fail"%>
+    alert("<%= @result[:message]%>")
+<%else%>
+    $("#result").val("<%= @result[:probability]%>")
+    $("#result2").val("<%= @result[:level]%>")
+<%end%>
